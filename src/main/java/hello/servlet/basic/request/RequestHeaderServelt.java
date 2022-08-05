@@ -104,3 +104,9 @@ public class RequestHeaderServelt extends HttpServlet {
         System.out.println();
     }
 }
+
+// 참고
+// 로컬에서 테스트하면 IPv6 정보가 나오는데, IPv4 정보를 보고 싶으면 다음 옵션을 VM options에 넣어주면 된다.
+// -Djava.net.preferIPv4Stack=true
+// 지금까지 HttpServletRequest를 통해서 HTTP 메시지의 start-line, header 정보 조회 방법을 이해했다.
+// 이제 본격적으로 HTTP 요청 데이터를 어떻게 조회하는지 알아보자.
