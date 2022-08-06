@@ -1,0 +1,20 @@
+<!-
+HTTP 요청 데이터 - POST HTML Form
+이번에는 HTML의 Form을 사용해서 클라이언트에서 서버로 데이터를 전송해보자.
+주로 회원 가입, 상품 주문 등에서 사용하는 방식이다
+-->
+
+!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<form action="/request-param" method="post"> <!-- 리퀘스트 파람으로 전송 ! -->
+  username: <input type="text" name="username" />
+  age: <input type="text" name="age" />
+  <button type="submit">전송</button>
+</form>
+</body>
+</html>
