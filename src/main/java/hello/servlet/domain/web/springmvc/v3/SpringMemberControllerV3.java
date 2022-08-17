@@ -72,4 +72,4 @@ public class SpringMemberControllerV3 {
 //  이것을 @GetMapping , @PostMapping 으로 더 편리하게 사용할 수 있다.
 //  참고로 Get, Post, Put, Delete, Patch 모두 애노테이션이 준비되어 있다.
 
-//  @GetMapping 코드를 열어서 @RequestMapping 애노테이션을 내부에 가지고 있는 모습을 확인하자
+//  @GetMapping 코드를 열어서 @RequestMapping 애노테이션을 내부에 가지고 있는 모습을 확인하자.
